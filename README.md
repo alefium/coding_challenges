@@ -13,6 +13,8 @@ The result is the expected one.
 
 
 ## Python challenge
+It has been done using Python 3.7
+
 There are 3 files:
 - python_challenge.py which contains the funtions I wrote.
 - python_challenge_create_table.py Running it you create the SQL table we need to populate with the given data.
