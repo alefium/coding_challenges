@@ -18,7 +18,7 @@ from sqlalchemy.dialects.postgresql import BIGINT, BOOLEAN, CHAR, DOUBLE_PRECISI
 from sqlalchemy.engine import Engine
 
 
-def sql_engine(password, database: str='wefox', user: str='postgres') -> Engine:
+def sql_engine(password, database: str='prova', user: str='postgres') -> Engine:
     ''' Returns a Sqlalchemy engine. '''
     
     return create_engine(f'postgresql+psycopg2://{user}:{password}@localhost/{database}')
